@@ -1,0 +1,36 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #233044; background: #f5f7fa; }
+a { color: #234e95; text-underline-offset: 3px; }
+button, input, select { font: inherit; }
+button { cursor: pointer; padding: .65rem 1rem; border: 0; border-radius: 6px; background: #234e95; color: white; }
+input, select { padding: .65rem; border: 1px solid #9aa7b8; border-radius: 6px; background: white; min-width: 0; }
+.kerangka { display: flex; flex-direction: column; min-height: 100vh; }
+#kepala-situs { border-bottom: 1px solid #d9e0ea; background: white; }
+.kepala { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 1.3rem; }
+.merek { color: #234e95; }
+.merek::before { content: '▶ '; }
+.menu { display: flex; flex-wrap: wrap; gap: 1rem; }
+.menu a.active { font-weight: bold; }
+.menu a:hover { color: #803716; }
+#isi-utama { width: 100%; max-width: 1000px; margin: auto; }
+.isi { flex: 1; padding: 1.5rem; }
+#kaki-situs { border-top: 1px solid #d9e0ea; }
+.kaki { padding: 1.2rem; color: #4e5d70; text-align: center; }
+.daftar-kartu { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.kartu { padding: 1.2rem; border: 1px solid #d9e0ea; border-radius: 10px; background: white; }
+.kartu h2 { font-size: 1.1rem; margin-top: 0; }
+.kartu p { color: #4e5d70; }
+.alat-koleksi { display: flex; flex-wrap: wrap; gap: .8rem; margin: 1.2rem 0; }
+.aksi { display: flex; align-items: center; gap: 1rem; margin-top: 1.5rem; }
+.isi dl { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: .7rem 1rem; }
+.isi dt { font-weight: bold; }
+.isi dd { margin: 0; overflow-wrap: anywhere; }
+[role='alert'] { color: #a51d16; }
+button:hover { background: #173968; }
+:focus-visible { outline: 3px solid #b35d10; outline-offset: 3px; }
+@media (max-width: 700px) {
+  .kepala { flex-direction: column; align-items: flex-start; }
+  .daftar-kartu { grid-template-columns: 1fr; }
+  .isi { padding: 1rem; }
+  .alat-koleksi { flex-direction: column; }
+}
