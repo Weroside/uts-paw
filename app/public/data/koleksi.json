@@ -1,10 +1,82 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Senja di Pelabuhan",
+    "kategori": "Drama",
+    "sutradara": "Ardi Pramana",
+    "tahunRilis": 2017,
+    "rating": 7.0
+  },
+  {
+    "id": "2",
+    "judul": "Jejak di Utara",
+    "kategori": "Misteri",
+    "sutradara": "Nadia Putri",
+    "tahunRilis": 2018,
+    "rating": 7.1
+  },
+  {
+    "id": "3",
+    "judul": "Rumah Kertas Biru",
+    "kategori": "Drama",
+    "sutradara": "Raka Wijaya",
+    "tahunRilis": 2019,
+    "rating": 7.2
+  },
+  {
+    "id": "4",
+    "judul": "Langkah Terakhir",
+    "kategori": "Aksi",
+    "sutradara": "Dimas Saputra",
+    "tahunRilis": 2020,
+    "rating": 7.3
+  },
+  {
+    "id": "5",
+    "judul": "Kota Tanpa Jam",
+    "kategori": "Fiksi Ilmiah",
+    "sutradara": "Laras Pertiwi",
+    "tahunRilis": 2021,
+    "rating": 7.4
+  },
+  {
+    "id": "6",
+    "judul": "Kebun Rahasia",
+    "kategori": "Fantasi",
+    "sutradara": "Ardi Pramana",
+    "tahunRilis": 2022,
+    "rating": 7.5
+  },
+  {
+    "id": "7",
+    "judul": "Langit Setelah Hujan",
+    "kategori": "Drama",
+    "sutradara": "Nadia Putri",
+    "tahunRilis": 2023,
+    "rating": 7.6
+  },
+  {
+    "id": "8",
+    "judul": "Nada dari Seberang",
+    "kategori": "Musikal",
+    "sutradara": "Raka Wijaya",
+    "tahunRilis": 2024,
+    "rating": 7.7
+  },
+  {
+    "id": "9",
+    "judul": "Surat untuk Esok",
+    "kategori": "Romansa",
+    "sutradara": "Dimas Saputra",
+    "tahunRilis": 2017,
+    "rating": 7.8
+  },
+  {
+    "id": "10",
+    "judul": "Petualangan Rimba",
+    "kategori": "Petualangan",
+    "sutradara": "Laras Pertiwi",
+    "tahunRilis": 2018,
+    "rating": 7.9
   }
 ]
