@@ -1,0 +1,7 @@
+.tabel-gulir { overflow-x: auto; }
+.tabel-data { width: 100%; max-width: 560px; border-collapse: collapse; }
+.tabel-data th, .tabel-data td { padding: .8rem; text-align: left; border-bottom: 1px solid #c9d3e0; }
+.tabel-data thead { background: #e3eaf4; }
+.tabel-data tbody tr:nth-child(even) { background: #edf1f7; }
+.tabel-data tfoot { font-weight: bold; }
+@media (max-width: 480px) { .tabel-data th, .tabel-data td { padding: .5rem; } }
