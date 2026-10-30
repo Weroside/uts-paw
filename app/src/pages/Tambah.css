@@ -1,0 +1,4 @@
+.formulir { display: flex; flex-direction: column; gap: .5rem; max-width: 480px; }
+.formulir label { margin-top: .75rem; font-weight: bold; }
+.formulir button { align-self: flex-start; margin-top: 1rem; }
+@media (max-width: 480px) { .formulir button { align-self: stretch; } }
