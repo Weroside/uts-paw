@@ -64,11 +64,13 @@ Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Ke
 
 # Catatan Tontonan
 
+```markdown
 Nama: Richard Halim  
 NIM: 124140084  
 Kelas: RA  
 Tema: Daftar Tontonan Film dan Serial  
 Deployment: https://weroside.github.io/uts-paw/
+```
 
 - **Halaman Beranda**
 ![Tangkapan layar beranda](docs/beranda.png)
@@ -83,7 +85,7 @@ Deployment: https://weroside.github.io/uts-paw/
 ![Tangkapan layar tambah](docs/tambah.png)
 
 - **Halaman Statistik**
-![Tangkapan layar statistik](docs/beranda.png)
+![Tangkapan layar statistik](docs/statistik.png)
 
 - **Halaman Tentang**
 ![Tangkapan layar tentang](docs/tentang.png)
